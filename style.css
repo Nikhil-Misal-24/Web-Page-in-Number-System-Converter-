@@ -1,0 +1,123 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInBody 3s ease-in-out;
+}
+
+@keyframes fadeInBody {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    width: 380px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    animation: floatCard 3s infinite ease-in-out;
+}
+
+@keyframes floatCard {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #4e54c8;
+    animation: fadeInTitle 1s ease;
+}
+
+@keyframes fadeInTitle {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+input,
+select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+    transition: 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #4e54c8;
+    box-shadow: 0 0 8px rgba(78, 84, 200, 0.5);
+    outline: none;
+}
+
+button {
+    width: 90%;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #4e54c8;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background: #363ccf;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(78, 84, 200, 0.4);
+}
+
+#result {
+    background: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    animation: fadeInFooter 2s ease-in-out;
+}
+
+@keyframes fadeInFooter {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
