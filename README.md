@@ -7,17 +7,11 @@ A simple and interactive Number System Converter Web Application built using HTM
 This project allows users to convert numbers between various number systems including:
 
 🔢 Binary ↔ Decimal
-
 🔢 Binary ↔ Octal
-
 🔢 Binary ↔ Hexadecimal
-
 🔢 Decimal ↔ Octal
-
-🔢 Decimal ↔ Hexadecimal
-
+🔢 Decimal ↔ Hexadeciml
 🔢 Octal ↔ Hexadecimal
-
 The application focuses on simplicity, clarity, and responsiveness, making it ideal for students and beginners in digital electronics and computer science.
 
 ✨ Features
